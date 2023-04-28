@@ -15,14 +15,14 @@ jobs:
     steps:
       - uses: oprypin/find-latest-tag@v1
         with:
-          repository: tobalan/plugin.video.jiotv # The repository to scan.
+          repository: boredom1234/plugin.video.jiotv # The repository to scan.
           releases-only: true # We know that all relevant tags have a GitHub release for them.
         id: octokit # The step ID to refer to later.
 
       - run: echo "plugin.video.jiotv is at version ${{ steps.octokit.outputs.tag }}"
       - uses: actions/checkout@v3
         with:
-          repository: tobalan/plugin.video.jiotv
+          repository: boredom1234/plugin.video.jiotv
           path: plugin.video.jiotv
           ref: ${{ steps.octokit.outputs.tag }}
 

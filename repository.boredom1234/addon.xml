@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.boredom1234" name="boredom1234 Repository" version="2.0.1" provider-name="boredom1234">
+    <extension point="xbmc.addon.repository" name="boredom1234 Repository">
+        <dir minversion="19.0">
+            <info compressed="false">https://boredom1234.github.io/addons.xml</info>
+            <checksum>https://boredom1234.github.io/addons.xml.md5</checksum>
+            <datadir zip="true">https://boredom1234.github.io/Zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>boredom1234 Repository for Kodi</summary>
+        <description>A Repository for Streaming Add-ons of Indian OTT Providers</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <clearlogo>icon.png</clearlogo>
+        </assets>
+    </extension>
+</addon>
